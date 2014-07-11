@@ -1,0 +1,89 @@
+{
+  "bounds": [
+    -82.8184,
+    27.8661,
+    -82.6924,
+    27.9774
+  ],
+  "center": [
+    -82.7549,
+    27.9131,
+    12
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        -82.76578976,
+        27.82220196,
+        -82.6270178,
+        27.9337339
+      ],
+      "id": "benchmarks",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/coleman/Dropbox/dev/gps-accuracy-experiments/results.csv",
+        "id": "benchmarks",
+        "project": "gps-experiments",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "benchmarks"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -82.76578976,
+        27.82220196,
+        -82.6270178,
+        27.9337339
+      ],
+      "id": "ios-onboard",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/coleman/Dropbox/dev/gps-accuracy-experiments/results.csv",
+        "id": "ios-onboard",
+        "project": "gps-experiments",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ios-onboard"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -82.76578976,
+        27.82220196,
+        -82.6270178,
+        27.9337339
+      ],
+      "id": "android-xgps",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/coleman/Dropbox/dev/gps-accuracy-experiments/results.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "android-xgps"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "GPS Accuracy Experiments",
+  "description": "",
+  "attribution": ""
+}
